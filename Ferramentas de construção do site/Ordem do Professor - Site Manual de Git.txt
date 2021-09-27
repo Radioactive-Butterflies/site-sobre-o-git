@@ -1,0 +1,56 @@
+Que Git é esse?
+
+> HOME
+1 - O que é Controle de Versão ?
+
+
+
+2 - O que é Git ?
+
+
+	3 - O que é GitHUB ?
+		5 - Explicação de como criar uma conta no serviço.
+	4 - O que é GitLAB ?
+		5 - Explicação de como criar uma conta no serviço.
+
+> TUTORIAL
+12 - Instalação do Git
+	12.1 - Como é a instalação do Git no Windows
+	12.2 - Como é a instalação Git no Linux
+6 - Como configurar o Git ?
+10 - O que são BRANCHES ?
+
+> MANUAL
+7 - Quais os principais comandos do Git ?
+8 - O que é Git pull ?
+9 - O que é Git push ?
+10B - Como arrumar uma mensagem errada em um commit ?
+
+> EXEMPLO/ESTUDO DE CASO
+11 - Explicação sobre como um grupo de faculdade pode usar Git para colaborar em um projeto ?
+
+> BIBLIOGRAFIA
+13 - Referências/Bibliografia
+
+> GRUPO
+Quem Somos
+
+
+
+
+Manual de Git em HTML
+Construa com seu grupo um site que sirva como manual de Git, contendo a explicação do que é, quem criou, como é usado, como usar e como instalar. Citem todas as suas fontes (na mesma página em que forem usadas) e utilize as suas próprias imagens (seus próprios printscreens e gráficos criados do zero pelo grupo).
+
+Todos os projetos tem que ter*:
+01) Esquema de cores próprio (sugestão de inspiração: https://color.adobe.com);
+02) TODO site precisa de um layout, ou seja os elementos precisam ser posicionados com CSS. Proibido deixar no Fluxo natural do documento;
+03) TODAS as definições de FORMATAÇÃO estão no CSS, proibido declarar CSS no HTML ou utilizar atalhos como <b> e <i> por exemplo;
+04) TODAS as imagens tem que ter "alt" com uma descrição que faça sentido para quem não consegue ver a imagem;
+05) O site só pode ter UM arquivo CSS;
+06) Sugestão (enfática) de manter todos os nomes de arquivos e diretórios em caixa baixa;
+07) Todo site precisa de um arquivo index.html;
+08) Vale a pena trabalha a tipografia das páginas;
+09) Todas as imagens devem ser dimensionadas em software de edição e NÃO no HTML;
+10) TODAS as páginas HTML (e o arquivo CSS) precisam ser validados e aprovados sem erro na W3C (Warnnings eu até aceito, mas Errors, não).
+
+* Aliás, essas observações valem para o projeto do Git e para TODOS os outros sites feitos no curso de PPSI-I, PPSI-II, Acessibilidade e Bases da Internet.

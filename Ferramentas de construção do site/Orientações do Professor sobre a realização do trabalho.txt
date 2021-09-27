@@ -1,0 +1,16 @@
+Manual de Git em HTML
+Construa com seu grupo um site que sirva como manual de Git, contendo a explicação do que é, quem criou, como é usado, como usar e como instalar. Citem todas as suas fontes (na mesma página em que forem usadas) e utilize as suas próprias imagens (seus próprios printscreens e gráficos criados do zero pelo grupo).
+
+Todos os projetos tem que ter*:
+01) Esquema de cores próprio (sugestão de inspiração: https://color.adobe.com);
+02) TODO site precisa de um layout, ou seja os elementos precisam ser posicionados com CSS. Proibido deixar no Fluxo natural do documento;
+03) TODAS as definições de FORMATAÇÃO estão no CSS, proibido declarar CSS no HTML ou utilizar atalhos como <b> e <i> por exemplo;
+04) TODAS as imagens tem que ter "alt" com uma descrição que faça sentido para quem não consegue ver a imagem;
+05) O site só pode ter UM arquivo CSS;
+06) Sugestão (enfática) de manter todos os nomes de arquivos e diretórios em caixa baixa;
+07) Todo site precisa de um arquivo index.html;
+08) Vale a pena trabalha a tipografia das páginas;
+09) Todas as imagens devem ser dimensionadas em software de edição e NÃO no HTML;
+10) TODAS as páginas HTML (e o arquivo CSS) precisam ser validados e aprovados sem erro na W3C (Warnnings eu até aceito, mas Errors, não).
+
+* Aliás, essas observações valem para o projeto do Git e para TODOS os outros sites feitos no curso de PPSI-I, PPSI-II, Acessibilidade e Bases da Internet.

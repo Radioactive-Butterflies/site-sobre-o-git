@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+html {
+  background-color: gray;
+}
+
+body {
+  background-color: lightgray;
+  width: 960px;
+  height: auto;
+  margin: 0px auto 0px auto;
+}
+
+header, article, aside, section, footer {
+  background-color: white;
+  margin: 10px;
+}
+
+p, h1, h2, h3, h4 {
+  padding: 0px 10px 10px 10px;
+}

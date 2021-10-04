@@ -2,38 +2,34 @@ Que Git é esse?
 
 > HOME
 1 - O que é Controle de Versão ?
-
-
-
 2 - O que é Git ?
 
-
-	3 - O que é GitHUB ?
-		5 - Explicação de como criar uma conta no serviço.
-	4 - O que é GitLAB ?
-		5 - Explicação de como criar uma conta no serviço.
+	2.1 - O que é GitHUB ?
+		2.1.1 - Explicação de como criar uma conta no serviço.
+	2.2 - O que é GitLAB ?
+		2.2.1 - Explicação de como criar uma conta no serviço.
 
 > TUTORIAL
-12 - Instalação do Git
-	12.1 - Como é a instalação do Git no Windows
-	12.2 - Como é a instalação Git no Linux
-6 - Como configurar o Git ?
-10 - O que são BRANCHES ?
+3 - Instalação do Git
+	3.1 - Como é a instalação do Git no Windows
+	3.2 - Como é a instalação Git no Linux
+4 - Como configurar o Git ?
+5 - O que são BRANCHES ?
 
 > MANUAL
-7 - Quais os principais comandos do Git ?
-8 - O que é Git pull ?
-9 - O que é Git push ?
-10B - Como arrumar uma mensagem errada em um commit ?
+6 - Quais os principais comandos do Git ?
+7 - O que é Git pull ?
+8 - O que é Git push ?
+9 - Como arrumar uma mensagem errada em um commit ?
 
 > EXEMPLO/ESTUDO DE CASO
-11 - Explicação sobre como um grupo de faculdade pode usar Git para colaborar em um projeto ?
+10 - Explicação sobre como um grupo de faculdade pode usar Git para colaborar em um projeto ?
 
 > BIBLIOGRAFIA
-13 - Referências/Bibliografia
+11 - Referências/Bibliografia
 
 > GRUPO
-Quem Somos
+12 - Quem Somos
 
 
 

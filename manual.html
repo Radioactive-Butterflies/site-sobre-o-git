@@ -8,55 +8,77 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <nav>
-        <ul>
+  <header class=header>
+    <!-- Isso cria o banner com o logo clicável -->
+    <img class=banner_img src="img/banner.png" alt="Banner do Site">
+    <a class=logo href="index.html"><img src="img/logo.png" alt="Logo do Site"></a>
 
-          <li><a href=" index.html ">Início </a> |</li>
-          <li><a href=" tutorial.html ">Tutorial</a> |</li>
-          <li><a href=" manual.html ">Manual </a> |</li>
-          <li><a href=" estudo_de_caso.html "> Estudo de Caso</a> |</li>
-          <li><a href=" referencias.html ">Referências </a> | </li>
-          <li><a href=" quem_somos.html ">Quem Somos </a> |</li>
-        </ul>
-      </nav>
+    <!-- Isso cria o menu de navegação do site -->
+    <nav class=menu>
+      <ul class=hold>
+        <li class=holder><a class=menu_item href="tutorial.html">Tutorial</a></li>
+        <li class=holder><a class=menu_item href="manual.html">Manual</a></li>
+        <li class=holder><a class=menu_item href="estudo_de_caso.html">Estudo de Caso</a></li>
+        <li class=holder><a class=menu_item href="referencias.html">Referências</a></li>
+        <li class=holder><a class=menu_item href="quem_somos.html">Quem Somos</a></li>
+      </ul>
+    </nav>
   </header>
 
   <article>
     <h1>Manual</h1>
     <table border="1">
-      <caption>6 - Principais Comandos do Git</caption>
-      <tr>
-        <th>1</th>
-        <th>Git init</th>
-        <td>Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.</td>
-      </tr>
-      <tr>
-        <th>2</th>
-        <th>Git clone</th>
-        <td>Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.</td>
-      </tr>
-      <tr>
-        <th>3</th>
-        <th>Git init</th>
-        <td>Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.</td>
-      </tr>
-      <tr>
-        <th>4</th>
-        <th>Git init</th>
-        <td>Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.</td>
-      </tr>
-      <tr>
-        <th>5</th>
-        <th>Git init</th>
-        <td>Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.</td>
-      </tr>
-      <tr>
-        <th>6</th>
-        <th>Git init</th>
-        <td>Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.</td>
-      </tr>
+      <h2>6 - Principais Comandos do Git<h2>
+          <tr>
+            <th>1</th>
+            <th>Git add</th>
+            <td>Adicione o conteúdo do arquivo ao índice</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <th>Git branch</th>
+            <td>Listar, criar ou excluir ramos</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <th>Git checkout</th>
+            <td>Alternar ramos ou restaurar arquivos da árvore de trabalho</td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <th>Git clone</th>
+            <td>Clone um repositório em um novo diretório</td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <th>Git commit</th>
+            <td>Registre as alterações no repositório</td>
+          </tr>
+          <tr>
+            <th>6</th>
+            <th>Git merge</th>
+            <td>Junte dois ou mais históricos de desenvolvimento</td>
+          </tr>
+          <tr>
+            <th>7</th>
+            <th>Git pull</th>
+            <td>Busque e integre com outro repositório ou filial local</td>
+          </tr>
+          <tr>
+            <th>8</th>
+            <th>Git push</th>
+            <td>Atualizar referências remotas junto com objetos associados</td>
+          </tr>
+          <tr>
+            <th>9</th>
+            <th>Git revert</th>
+            <td>Reverter alguns commits existentes</td>
+          </tr>
+          <tr>
+            <th>10</th>
+            <th>Git status</th>
+            <td>Mostra o estado da árvore de trabalho</td>
+          </tr>
     </table>
     </p>
     <aside>
@@ -64,23 +86,20 @@
       <h3>
         <p>7 - Git Pull</p>
       </h3>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br></br>
+      <p>Comando utilizado em atualizações do repositório remoto.Se um git pull for feito na sua máquina vai extrair informações do repósitório original para a máquina.</p>
+
 
       <h3>
         <p>8 - Git Push</p>
       </h3>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br></br>
+      <p>Comando utilizado para enviar as alterações para  o servidor remoto. O git pushenviae salva as alterações  no repositório remoto.</p>
+
 
       <h3>
         <p>9 - Como arrumar uma mensagem errada em um commit?</p>
       </h3>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br></br>
+      <p>A maneira mais segura de desfazer alterações em um commit, é utilizando o git revert</p>
+
 
 
 

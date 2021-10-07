@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <header class=header>
+  <header>
     <!-- Isso cria o banner com o logo clicável -->
     <img class=banner_img src="img/banner.png" alt="Banner do Site">
     <a class=logo href="index.html"><img src="img/logo.png" alt="Logo do Site"></a>
@@ -26,27 +26,70 @@
   </header>
 
   <article>
-    <h1>Tutorial</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse animi alias voluptatibus, quasi provident qui repellat mollitia facilis cupiditate unde cumque at? Ex iure ratione magnam, a eum, nulla labore.</p>
+    <h1 class=page_title>Tutorial</h1>
+    </br>
+
     <h2>3 - Instalação do Git</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rem amet optio nulla, debitis dolor nesciunt voluptates, dicta laudantium facere consequatur maxime fuga delectus necessitatibus. Odit vel cumque laboriosam voluptatum.</p>
+
     <h3>3.1 - Instalando o Git no Windows</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rem amet optio nulla, debitis dolor nesciunt voluptates, dicta laudantium facere consequatur maxime fuga delectus necessitatibus. Odit vel cumque laboriosam voluptatum.</p>
+    <ol>
+      <li>Acessar <a href="https://git-scm.com/">https://git-scm.com/</a> e selecione o download de acordo com o software desejado.
+        <p><img src="img/git/baixargit_v2.png" alt="Página onde baixa o Git"></p>
+      </li>
+      <li>O download deverá começar sozinho, caso não comece, selecione para baixar manualmente.</li>
+      <li>Apos o download concluido, execute o programa e clique na opção next.
+        <p><img src="img/git/instalaçãogit.png" alt="Iniciar a instalação"></p>
+      </li>
+      <li>Selecione a primeira opção e install.
+        <p><img src="img/git/instalaçãogit2.png" alt="Instalando o Git"></p>
+      </li>
+      <li>O programa ira baixar e assim que concluir, marque as opçoes de acordo com a imagem abaixo.
+        <p><img src="img/git/instalaçãofinalizada.png" alt="Finalizando a instalação"></p>
+      </li>
+    </ol>
+
     <h3>3.2 - Instalando o Git no Linux</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rem amet optio nulla, debitis dolor nesciunt voluptates, dicta laudantium facere consequatur maxime fuga delectus necessitatibus. Odit vel cumque laboriosam voluptatum.</p>
+    <p>FALTA FAZER</p>
+
     <h2>4 - Configurando o Git</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rem amet optio nulla, debitis dolor nesciunt voluptates, dicta laudantium facere consequatur maxime fuga delectus necessitatibus. Odit vel cumque laboriosam voluptatum.</p>
-    <h2>5 - O que são BRANCHES ?</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rem amet optio nulla, debitis dolor nesciunt voluptates, dicta laudantium facere consequatur maxime fuga delectus necessitatibus. Odit vel cumque laboriosam voluptatum.</p>
+    <p>FALTA FAZER</p>
+
+    <h2>5 - O que são BRANCHES?</h2>
+    <p>Repositório, ou repo, é um diretório onde os arquivos do seu projeto ficam armazenados. Ele pode ficar em um depósito do GitHub ou em seu computador. Você pode armazenar códigos, imagens, áudios, ou qualquer outra coisa relacionada ao projeto
+      no diretório.</p>
+    <p>Branch é uma cópia do diretório. Você pode usar o branch para desenvolver isoladamente.
+      Trabalhar em um branch não irá afetar o repositório central ou outros branches. Depois de finalizar o trabalho você pode combinar seu branch isolado com outros branches através de um merge. Para combinar o branch isolado ao repositório central
+      utiliza-se o Pull Request.</p>
   </article>
-  <aside>
-    <p>AQUI VAI O ASIDE</p>
-  </aside>
-  <section>
-    <p>AQUI VAI UMA SECTION SE FOR NECESSÁRIO</p>
-  </section>
+
   <footer>
-    <p>AQUI VAI O FOOTER</p>
+    <img class=img_footer src="img/barra_footer.jpg" alt="Barra degradê preta e laranja">
+    <a class=logo_foot href="index.html"><img src="img/logo_small.png" alt="Logo pequeno do Site"></a>
+
+    <table class=map>
+      <thead>
+        <tr>
+          <th colspan="2"><a class=map_title>Mapa do Site</a></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class=map_item href="tutorial.html">Tutorial</a></td>
+          <td><a class=map_item href="manual.html">Manual</a></td>
+        </tr>
+        <tr>
+          <td><a class=map_item href="estudo_de_caso.html">Estudo de Caso</a></td>
+          <td><a class=map_item href="referencias.html">Referências</a></td>
+        </tr>
+        <tr>
+          <td><a class=map_item href="quem_somos.html">Quem Somos</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <small>
+      <p class=copyrights>Trabalho de faculdade criado pelo grupo <a class=small_link href="quem_somos.html" target="_blank">Borboletas Radioativas</a> para a disciplina de PPSI-I 2021.</p>
+    </small>
   </footer>
 </body>
 

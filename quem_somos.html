@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <header class=header>
+  <header>
     <!-- Isso cria o banner com o logo clicável -->
     <img class=banner_img src="img/banner.png" alt="Banner do Site">
     <a class=logo href="index.html"><img src="img/logo.png" alt="Logo do Site"></a>
@@ -26,7 +26,7 @@
   </header>
 
   <article>
-    <h1>Quem Somos</h1>
+    <h1 class=page_title>Quem Somos</h1>
     <br>
     <table>
       <thead>
@@ -55,14 +55,34 @@
       </tbody>
     </table>
   </article>
-  <aside>
-    <p>AQUI VAI O ASIDE</p>
-  </aside>
-  <section>
-    <p>AQUI VAI UMA SECTION SE FOR NECESSÁRIO</p>
-  </section>
+
   <footer>
-    <p>AQUI VAI O FOOTER</p>
+    <img class=img_footer src="img/barra_footer.jpg" alt="Barra degradê preta e laranja">
+    <a class=logo_foot href="index.html"><img src="img/logo_small.png" alt="Logo pequeno do Site"></a>
+
+    <table class=map>
+      <thead>
+        <tr>
+          <th colspan="2"><a class=map_title>Mapa do Site</a></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class=map_item href="tutorial.html">Tutorial</a></td>
+          <td><a class=map_item href="manual.html">Manual</a></td>
+        </tr>
+        <tr>
+          <td><a class=map_item href="estudo_de_caso.html">Estudo de Caso</a></td>
+          <td><a class=map_item href="referencias.html">Referências</a></td>
+        </tr>
+        <tr>
+          <td><a class=map_item href="quem_somos.html">Quem Somos</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <small>
+      <p class=copyrights>Trabalho de faculdade criado pelo grupo <a class=small_link href="quem_somos.html" target="_blank">Borboletas Radioativas</a> para a disciplina de PPSI-I 2021.</p>
+    </small>
   </footer>
 </body>
 

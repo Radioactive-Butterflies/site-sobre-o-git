@@ -1,9 +1,21 @@
 @charset "UTF-8";
 
-.header {
+html {
+  background-color: rgb(28, 25, 25);
+}
+
+body {
+  background-color: white;
+  width: 960px;
+  height: auto;
+  margin: 0px auto 0px auto;
+}
+
+/* Elementos do Header começam aqui */
+header {
   position: relative;
   background-color: white;
-  height: 245px;
+  height: 215px;
   width: 960px;
 }
 
@@ -35,7 +47,7 @@
   color: rgb(215, 103, 0);
   background-color: rgb(28, 25, 25);
   border: solid 1px rgb(215, 103, 0);
-  padding: 15px 15px;
+  padding: 15px;
   margin: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -48,39 +60,100 @@
   background-color: rgb(215, 103, 0);
 }
 
-html {
-  background-color: rgb(28, 25, 25);
-}
-
-body {
+/* Elementos do Header acabam aqui */
+/* Elementos do Article começam aqui */
+article {
+  position: static;
   background-color: white;
-  width: 960px;
-  height: auto;
-  margin: 0px auto 0px auto;
+  margin: 10px;
 }
 
-article, aside, section, footer {
+.page_title {
+  position: static;
+  color: rgb(215, 103, 0);
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 2.5em;
+  padding-left: 15px;
+}
+/* Elementos do Article acabam aqui */
+
+/* Elementos do Footer começam aqui */
+footer {
+  position: relative;
+  background-color: white;
+  height: 140px;
+}
+
+.img_footer {
+  position: relative;
+}
+
+.logo_foot {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+
+.map {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+}
+
+.map_title{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 0.9em;
+}
+
+.map_item {
+  color: rgb(215, 103, 0);
+  background-color: rgb(28, 25, 25);
+  border: solid 1px rgb(215, 103, 0);
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 0.2em;
+}
+
+.map_item:hover {
+  color: rgb(28, 25, 25);
+  background-color: rgb(215, 103, 0);
+}
+
+.copyrights {
+  position: absolute;
+  bottom: 0px;
+  color: lightgray;
+  font-size: 0.7em;
+}
+
+.small_link {
+    color: rgb(215, 103, 0);
+}
+
+/* Elementos do Footer acabam aqui */
+
+
+aside, section {
   background-color: white;
   border: solid 2px rgb(215, 103, 0);
   margin: 10px;
 }
 
-p, h1, h2, h3, h4 {
+p, h2, h3, h4 {
   padding: 0px 10px 10px 10px;
 }
 
-footer {
-  clear: both;
-  height: 60px;
-}
-
-h1, h2, h3, h4 {
+ h2, h3, h4 {
   padding-left: 10px;
-}
-
-h1 {
-  color: rgb(215, 103, 0);
-  font-size: 2.5em;
 }
 
 p {
